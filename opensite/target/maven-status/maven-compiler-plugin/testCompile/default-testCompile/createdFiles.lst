@@ -1,0 +1,11 @@
+runner/TestRunner.class
+PageObjects/FormVehicleData.class
+PageObjects/SelectPrice.class
+PageObjects/FormSendQuote.class
+classes/Configs.class
+hooks/hook.class
+Steps/StepsForms.class
+PageObjects/FormInsurentData.class
+Pages/PageForms.class
+PageObjects/FormProductData.class
+classes/BrowserClass.class

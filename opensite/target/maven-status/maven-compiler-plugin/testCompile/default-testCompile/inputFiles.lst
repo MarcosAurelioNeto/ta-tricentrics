@@ -1,0 +1,11 @@
+/home/logic/Documents/java/newJava/opensite/src/test/java/runner/TestRunner.java
+/home/logic/Documents/java/newJava/opensite/src/test/java/PageObjects/FormInsurentData.java
+/home/logic/Documents/java/newJava/opensite/src/test/java/PageObjects/FormVehicleData.java
+/home/logic/Documents/java/newJava/opensite/src/test/java/PageObjects/FormProductData.java
+/home/logic/Documents/java/newJava/opensite/src/test/java/PageObjects/FormSendQuote.java
+/home/logic/Documents/java/newJava/opensite/src/test/java/PageObjects/SelectPrice.java
+/home/logic/Documents/java/newJava/opensite/src/test/java/classes/BrowserClass.java
+/home/logic/Documents/java/newJava/opensite/src/test/java/classes/Configs.java
+/home/logic/Documents/java/newJava/opensite/src/test/java/Pages/PageForms.java
+/home/logic/Documents/java/newJava/opensite/src/test/java/Steps/StepsForms.java
+/home/logic/Documents/java/newJava/opensite/src/test/java/hooks/hook.java

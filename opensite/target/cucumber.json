@@ -1,0 +1,167 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-19T11:50:22.781Z",
+        "line": 8,
+        "name": "Verificar Mensagem de sucesso ao preencher todos os formulários",
+        "description": "",
+        "id": "preenchimento-de-formularios;verificar-mensagem-de-sucesso-ao-preencher-todos-os-formulários",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 4970000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que estou no site \"http://sampleapp.tricentis.com/101/app.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://sampleapp.tricentis.com/101/app.php\"",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.StepsForms.que_estou_no_site(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1885000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "preencho o fomulario, aba \"Enter Vehicle Data\" e pressiono next",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Enter Vehicle Data\"",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.StepsForms.preencho_o_fomulario_aba(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1408000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "preencho o fomulario, aba \"Enter Insurant Data\" e pressiono next",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Enter Insurant Data\"",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.StepsForms.preencho_o_fomulario_aba(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 680000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencho o fomulario, aba \"Enter Product Data\" e pressiono next",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Enter Product Data\"",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.StepsForms.preencho_o_fomulario_aba(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 685000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "preencho o fomulario, aba \"Select Price Option\" e pressiono next",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Select Price Option\"",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.StepsForms.preencho_o_fomulario_aba(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 958000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "preencho o fomulario, aba \"Send Quote\" e pressiono o botão send",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Send Quote\"",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.StepsForms.preencho_o_fomulario_aba_e_pressiono_o_botão_send(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 8964000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "verifico a mensagem \"Sending e-mail success!\" na tela",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sending e-mail success!\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.StepsForms.verifico_a_mensagem_na_tela(java.lang.String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Formularios"
+          },
+          {
+            "name": "@Formulario_CT001_MSGSUCESSO"
+          }
+        ]
+      }
+    ],
+    "name": "Preenchimento de formularios",
+    "description": "  I want to use this template for my feature file",
+    "id": "preenchimento-de-formularios",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/Features/formularios.feature",
+    "tags": [
+      {
+        "name": "@Formularios",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
