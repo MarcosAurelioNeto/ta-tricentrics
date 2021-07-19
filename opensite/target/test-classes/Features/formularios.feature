@@ -2,7 +2,9 @@
 
 @Formularios
 Funcionalidade: Preenchimento de formularios
-  I want to use this template for my feature file
+  EU COMO Motoqueiro
+	QUERO verificar se meu email foi enviado com sucesso depois de enviar orçamento
+	PARA contratar os serviços do site Tricentis
 
   @Formulario_CT001_MSGSUCESSO
   Cenário: Verificar Mensagem de sucesso ao preencher todos os formulários
