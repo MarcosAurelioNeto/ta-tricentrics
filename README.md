@@ -11,8 +11,8 @@ Este teste automatizado foi feito com o intuito de automatizar o preenchimento d
 
 Há duas formas de execuções do teste automatizado:
 
-- 1º execute a feature fomrularios.feature no local: **opensite/src/test/resources/Features/**
-- 2º executar via terminal para gerar relatórios: primeiro deve ser executado o comando **mvn clean test** e depois o comando ** mvn verify -DskipTests**
+- 1º execute a feature formularios.feature no local: **opensite/src/test/resources/Features/formularios.feature**
+- 2º executar via terminal para gerar relatórios: primeiro deve ser executado o comando **mvn clean test** e depois o comando **mvn verify -DskipTests**
 
 Relatórios se encontram na pasta: **opensite/target/cucumber-report-html/cucumber-html-reports/**
 
